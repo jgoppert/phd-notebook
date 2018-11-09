@@ -1,0 +1,49 @@
+PERFORMANCE COUNTERS PRE-FLIGHT
+
+navigator: 1015 events, 83981us elapsed, 82us avg, min 28us max 4813us
+ekf_att_pos_reset: 0 events
+ekf_att_pos_aspd_upd: 1137 events, 16735us avg, min 8148us max 69009us
+ekf_att_pos_baro_upd: 855 events, 22265us avg, min 8148us max 69305us
+ekf_att_pos_gps_upd: 0 events, 0us avg, min 0us max 0us
+ekf_att_pos_mag_upd: 2106 events, 9052us avg, min 3627us max 60184us
+ekf_att_pos_gyro_upd: 4212 events, 4526us avg, min 11us max 60173us
+ekf_att_pos_estimator: 1995 events, 7372287us elapsed, 3695us avg, min 848us max 60096us
+sensor task update: 4798 events, 770201us elapsed, 160us avg, min 89us max 5088us
+airspeed_comms_errors: 1 events
+airspeed_read: 1158 events, 1231143us elapsed, 1063us avg, min 562us max 8035us
+airspeed_buffer_overflows: 4 events
+lsm303d_accel_resched: 314 events
+lsm303d_extremes: 0 events
+lsm303d_reg7_resets: 0 events
+lsm303d_reg1_resets: 0 events
+lsm303d_mag_read: 1943 events, 99809us elapsed, 51us avg, min 49us max 52us
+lsm303d_accel_read: 15474 events, 836027us elapsed, 54us avg, min 53us max 55us
+l3gd20_errors: 0 events
+l3gd20_reschedules: 2948 events
+l3gd20_read: 14510 events, 864857us elapsed, 59us avg, min 58us max 65us
+mpu6000_good_transfers: 14829 events
+mpu6000_bad_transfers: 0 events
+mpu6000_read: 14833 events, 1517025us elapsed, 102us avg, min 97us max 118us
+mpu6000_gyro_read: 0 events
+mpu6000_accel_read: 2 events
+adc_samples: 19400 events, 59282us elapsed, 3us avg, min 3us max 4us
+ms5611_buffer_overflows: 874 events
+ms5611_comms_errors: 0 events
+ms5611_measure: 1171 events, 35205us elapsed, 30us avg, min 17us max 601us
+ms5611_read: 1171 events, 220658us elapsed, 188us avg, min 31us max 24652us
+mavlink_txe: 0 events
+mavlink_el: 1539 events, 747282us elapsed, 485us avg, min 78us max 106892us
+io rc #: 1 events
+io write: 0 events, 0us elapsed, 0us avg, min 0us max 0us
+io update: 9025 events, 5469056us elapsed, 605us avg, min 300us max 44284us
+io_badidle  : 0 events
+io_idle     : 12644 events
+io_uarterrs : 0 events
+io_protoerrs: 0 events
+io_dmaerrs  : 0 events
+io_crcerrs  : 0 events
+io_timeouts : 0 events
+io_retries  : 0 events
+io_dmasetup : 12647 events, 413798us elapsed, 32us avg, min 13us max 784us
+io_txns     : 12647 events, 4825236us elapsed, 381us avg, min 159us max 12870us
+DMA allocations: 8 events

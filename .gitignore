@@ -1,0 +1,6 @@
+*.pyc
+.ropeproject/
+.ipynb_checkpoints/
+*_files/
+*.tex
+tmp/

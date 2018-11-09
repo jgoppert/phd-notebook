@@ -1,0 +1,29 @@
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data$ cp fwav_test_debug/process_logs.py fwav
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data$ cd fwav
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav$ ls
+data_test.pkl  log_learn1  no_flap.pkl  no_static.pkl  process_logs.py
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav$ python process_logs.py 
+/home/jgoppert/git/phd-thesis/notebooks/data/fwav/log_learn1/sess003/log001.bin
+python: can't open file 'sdlog2_dump.py': [Errno 2] No such file or directory
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav$ ls
+data_test.pkl  log_learn1  no_flap.pkl  no_static.pkl  process_logs.py
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav$ cd log_learn1/
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav/log_learn1$ ls
+conv.zip  sess003
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav/log_learn1$ unzip conv.zip Archive:  conv.zip
+  inflating: logconv.m               
+  inflating: sdlog2_dump.py          
+  inflating: README.txt              
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav/log_learn1$ ls
+conv.zip  logconv.m  README.txt  sdlog2_dump.py  sess003
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav/log_learn1$ cd ..
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav$ ls
+data_test.pkl  log_learn1  no_flap.pkl  no_static.pkl  process_logs.py
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav$ mv process_logs.py  log_learn1/
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav$ cd log_learn1/
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav/log_learn1$ ls
+conv.zip  logconv.m  process_logs.py  README.txt  sdlog2_dump.py  sess003
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav/log_learn1$ python process_logs.py 
+/home/jgoppert/git/phd-thesis/notebooks/data/fwav/log_learn1/sess003/log001.bin
+jgoppert@gnufus:~/git/phd-thesis/notebooks/data/fwav/log_learn1$ 
+
